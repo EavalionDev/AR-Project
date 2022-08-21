@@ -741,7 +741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateAroundThisTransform: {fileID: 1183405488}
-  rotateSpeed: 80
+  rotateSpeed: 85
   hitBarrier: 0
 --- !u!135 &1332701016
 SphereCollider:

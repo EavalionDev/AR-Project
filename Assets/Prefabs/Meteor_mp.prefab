@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c848d8a16113b64c8f452287ff3bf6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outOfObjectPool: 0
   dis: 0
   travelSpeed: 3
   addRotationValue: {x: 20, y: 20, z: 20}
@@ -74,6 +75,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fad2ff843560824fa0e8a83f662995e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectPoolPosition: {fileID: 0}
 --- !u!1 &5719550251776944448
 GameObject:
   m_ObjectHideFlags: 0

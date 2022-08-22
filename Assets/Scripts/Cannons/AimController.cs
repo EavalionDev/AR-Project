@@ -26,7 +26,6 @@ public class AimController : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(camCentre, transform.forward, out hit, 100f, layerMaskInt))
         {
-            print("hit the aiming border wall");
             aimingPoint.position = hit.point;
         }
 

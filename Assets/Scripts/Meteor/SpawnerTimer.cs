@@ -28,6 +28,10 @@ public class SpawnerTimer : MonoBehaviour
         {
             SpawnMeteor();
         }
+        if (objectPoolIndex == 20)
+        {
+            objectPoolIndex = 0;
+        }
     }
     void SpawnMeteor()
     {

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3123059397210487270}
   - component: {fileID: 915254028051270956}
   - component: {fileID: 1977703735174531328}
+  - component: {fileID: 2255853098075786298}
   m_Layer: 0
   m_Name: sci fi weapon
   m_TagString: Untagged
@@ -95,3 +96,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aimingPoint: {fileID: 0}
+--- !u!95 &2255853098075786298
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707812863563951353}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aaf0efe1a5cff9b4eb59097eb5d5cf37, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

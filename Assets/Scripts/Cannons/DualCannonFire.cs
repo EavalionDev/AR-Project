@@ -9,6 +9,7 @@ public class DualCannonFire : MonoBehaviour
     public Transform spawnerLeft;
     public Transform spawnerRight;
 
+    private Animator anim;
     private Transform crosshair;
     private GameObject spawnedMissileLeft;
     private GameObject spawnedMissileRight;
@@ -16,6 +17,7 @@ public class DualCannonFire : MonoBehaviour
     [SerializeField] private float fireDelayTime;
     private void Start()
     {
+        anim = GetComponent<Animator>();
         hasFired = false;
         crosshair = GameObject.FindWithTag("Crosshair").transform;
     }
@@ -27,6 +29,7 @@ public class DualCannonFire : MonoBehaviour
         }
         else
         {
+            anim.SetTrigger("Fire");
             spawnedMissileLeft = Instantiate(missile, spawnerLeft.position, Quaternion.identity);
             spawnedMissileLeft.transform.LookAt(crosshair);
             spawnedMissileRight = Instantiate(missile, spawnerRight.position, Quaternion.identity);

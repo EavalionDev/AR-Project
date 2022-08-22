@@ -26,7 +26,6 @@ public class Missile_Movement : MonoBehaviour
     {
         if (other.CompareTag("Meteor"))
         {
-            print("HIT METEOR");
             Destroy(gameObject);
         }
     }
